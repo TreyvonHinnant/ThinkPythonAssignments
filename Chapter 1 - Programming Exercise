@@ -28,11 +28,14 @@
     {
       "cell_type": "code",
       "source": [
-        "print (2 * 60 + 45)\n",
-        "print (2026 - 1947)\n"
+        "Total minutes in movie: 165\n",
+        "\n",
+        "Years since first bug: 79\n",
+        "\n",
+        "Total cost of books: 245"
       ],
       "metadata": {
-        "id": "mX8h900mBZyD"
+        "id": "ZHydu_xACilr"
       },
       "execution_count": null,
       "outputs": []
