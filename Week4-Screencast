@@ -1,0 +1,90 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO0DqXmsTk0XuGIcFU/X1vT",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TreyvonHinnant/ThinkPythonAssignments/blob/main/Week4-Screencast\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Import Statement\n",
+        "\n",
+        "# Function Definitions\n",
+        "# Create a calculate_tip function: amount of bill, tip percentage.\n",
+        "def calculate_tip( amount_of_bill, tip_percentage):\n",
+        "  # Print the amount of the bill\n",
+        "  print(\"Amount of bill: \" + str(amount_of_bill))\n",
+        "\n",
+        "  # Calculate sales tax amount\n",
+        "  sales_tax_rate = .0675\n",
+        "  sales_tax_amount = amount_of_bill * sales_tax_rate\n",
+        "  print(\"Sales tax: \" + str(sales_tax_amount))\n",
+        "\n",
+        "  # Calculate subtotal (amount of the bill + sales tax amount)\n",
+        "  subtotal = amount_of_bill + sales_tax_amount\n",
+        "  print(\"Subtotal:\" + str(subtotal))\n",
+        "\n",
+        "  # Calculate tip amount (subtotal * tip percentage)\n",
+        "  tip_amount = subtotal * tip_percentage\n",
+        "\n",
+        "  # Display tip amount\n",
+        "  print(\"Tip, based on a \" + str(tip_percentage * 100) + %tip: \" + str(tip_amount))\n",
+        "\n",
+        "# Program Logic\n",
+        "# Call my calculate_tip functions with an example\n",
+        "calculate_tip( 200, .15)\n",
+        "calculate_tip( 100, .20)\n",
+        "\n",
+        "print(sales_tax_rate)\n"
+      ],
+      "metadata": {
+        "id": "sIxYyMVMnywn"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Amount of bill: 200\n",
+        "Sales tax: 13.5\n",
+        "Subtotal: 213\n",
+        "Tip, based on a 15.0% tip: 32.025\n",
+        "Total: Bill: 245.525\n",
+        "Amount of bill: 100\n",
+        "Sales tax: 6.75\n",
+        "Subtotal: 106.75\n",
+        "Tip, based on a 20.0% tip: 21.35\n",
+        "Total Bill: 128.1\n",
+        "I have called another function"
+      ],
+      "metadata": {
+        "id": "IOFqfSNj83fo"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
