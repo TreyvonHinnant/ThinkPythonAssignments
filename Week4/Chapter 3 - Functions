@@ -1,0 +1,52 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNygGNYLdm+oCYmgEHbyzTM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TreyvonHinnant/ThinkPythonAssignments/blob/main/Week4/Chapter%203%20-%20Functions\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Import Statement\n",
+        "\n",
+        "# Function Definitions\n",
+        "# Create a calculate_tip function: amount of bill, tip percentage\n",
+        "\n",
+        "   # Calculate sales tax amount\n",
+        "   # Calculate subtotal (amount of the bill + sales tax amount)\n",
+        "   # Calculate tip amount (subtotal * tip percentage)\n",
+        "   # Display tip amount\n",
+        "\n",
+        "# Program Logic\n",
+        "# Call my calculate_tip functions with an example\n"
+      ],
+      "metadata": {
+        "id": "sIxYyMVMnywn"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
