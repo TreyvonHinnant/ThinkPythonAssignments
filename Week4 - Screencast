@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyN5tls6vwjBZlb+DSu+BkKd",
+      "authorship_tag": "ABX9TyOzywtvZVeGJZXS3i1aj/3l",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -33,6 +33,9 @@
         "\n",
         "# Function Definitions\n",
         "# Create a calculate_tip function: amount of bill, tip percentage.\n",
+        "def calculate_tip( amount_of_bill, tip_percentage):\n",
+        "  # Print the amount of the bill\n",
+        "  print(\"Amount of bill: \" + str(amount_of_bill))\n",
         "  # Calculate sales tax amount\n",
         "  # Calculate subtotal (amount of the bill + sales tax amount)\n",
         "  # Calculate tip amount (subtotal * tip percentage)\n",
