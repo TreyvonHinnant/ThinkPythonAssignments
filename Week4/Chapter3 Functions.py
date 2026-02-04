@@ -415,6 +415,26 @@
       "metadata": {
         "id": "Gr5cDEso7Es7"
       },
+      "execution_count": 1,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# IMPORT STATEMENTS\n",
+        "# (None)\n",
+        "\n",
+        "# FUNCTION DEFINITIONS\n",
+        "# 1. Define print_bio with three parameters: name, age, and goal.\n",
+        "# 2. Inside the function, use string multiplication (*) for a border line.\n",
+        "# 3. Print the bio details using the parameter names.\n",
+        "print_twice('Dennis Moore, ')\n",
+        "Dennis Moore,\n",
+        "Dennis Moore,\n"
+      ],
+      "metadata": {
+        "id": "Ma6Asj6L9s7B"
+      },
       "execution_count": null,
       "outputs": []
     }
