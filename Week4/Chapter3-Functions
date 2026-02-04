@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyM800ZWP5oQBFiaszgsk+HB",
+      "authorship_tag": "ABX9TyPzfOCXzivKLU7sAscn9KUO",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -47,9 +47,9 @@
         "print(\"*\" * 25)\n",
         "\n",
         "# PROGRAM LOGIC\n",
-        "# 1. Call print_bio using my own info.\n",
-        "# 2. Call print_bio using [Name of Famous Person].\n",
-        "# 3. Call print_bio using [Name of Fictional Character]."
+        "print_bio(\"Brittany Curry\", 29, \"Learn Python\")\n",
+        "print_bio(\"Robin Williams\", 63, \"Make people laugh.\")\n",
+        "print_bio(\"Leroy Gibbs\", 67, \"Solve naval crimes.\")"
       ]
     },
     {
