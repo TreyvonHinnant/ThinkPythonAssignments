@@ -404,39 +404,72 @@
         "\n",
         "# FUNCTION DEFINITIONS\n",
         "# 1. Define print_bio with three parameters: name, age, and goal.\n",
-        "# 2. Inside the function, use string multiplication (*) for a border line.\n",
-        "# 3. Print the bio details using the parameter names.\n",
+        "def print_bio(name, age, goal):\n",
+        "    # 2. Inside the function, use string multiplication (*) for a border line.\n",
+        "    print(\"*\" * 30)\n",
+        "    # 3. Print the bio details using the parameter names.\n",
+        "    print(f\"Name: {name}\")\n",
+        "    print(f\"Age:  {age}\")\n",
+        "    print(f\"Goal: {goal}\")\n",
+        "    print(\"*\" * 30)\n",
         "\n",
         "# PROGRAM LOGIC\n",
         "# 1. Call print_bio using my own info.\n",
+        "print_bio(\"Treyvon Hinnant\", 25, \"Master Python\")\n",
+        "\n",
         "# 2. Call print_bio using [Name of Famous Person].\n",
-        "# 3. Call print_bio using [Name of Fictional Character]."
+        "print_bio(\"Dennis Moore\", 30, \"Redistribute lupins\")\n",
+        "\n",
+        "# 3. Call print_bio using [Name of Fictional Character].\n",
+        "print_bio(\"Arthur Dent\", 42, \"Find a good cup of tea\")"
       ],
       "metadata": {
-        "id": "Gr5cDEso7Es7"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ma6Asj6L9s7B",
+        "outputId": "ae56e96e-54cd-4bd2-c9b2-62c8a41c3f15"
       },
-      "execution_count": 1,
-      "outputs": []
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "******************************\n",
+            "Name: Your Name\n",
+            "Age:  25\n",
+            "Goal: Master Python\n",
+            "******************************\n",
+            "******************************\n",
+            "Name: Dennis Moore\n",
+            "Age:  30\n",
+            "Goal: Redistribute lupins\n",
+            "******************************\n",
+            "******************************\n",
+            "Name: Arthur Dent\n",
+            "Age:  42\n",
+            "Goal: Find a good cup of tea\n",
+            "******************************\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
-      "source": [
-        "# IMPORT STATEMENTS\n",
-        "# (None)\n",
-        "\n",
-        "# FUNCTION DEFINITIONS\n",
-        "# 1. Define print_bio with three parameters: name, age, and goal.\n",
-        "# 2. Inside the function, use string multiplication (*) for a border line.\n",
-        "# 3. Print the bio details using the parameter names.\n",
-        "print_twice('Dennis Moore, ')\n",
-        "Dennis Moore,\n",
-        "Dennis Moore,\n"
-      ],
+      "source": [],
       "metadata": {
-        "id": "Ma6Asj6L9s7B"
+        "id": "dxLntyg6AKPZ"
       },
       "execution_count": null,
       "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "yjnbuO_sAMYI"
+      }
     }
   ],
   "metadata": {
