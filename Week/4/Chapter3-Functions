@@ -1,0 +1,113 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPfKg2x9WiVk64G33MTDRJC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TreyvonHinnant/ThinkPythonAssignments/blob/main/Week/4/Chapter3-Functions\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "vLkz3DOnVukm"
+      },
+      "outputs": [],
+      "source": [
+        "# IMPORT STATEMENTS\n",
+        "# (None)\n",
+        "\n",
+        "# FUNCTION DEFINITIONS\n",
+        "# 1. Define print_bio with three parameters: name, age, and goal.\n",
+        "# 2. Inside the function, use string multiplication (*) for a border line.\n",
+        "# 3. Print the bio details using the parameter names.\n",
+        "\n",
+        "# PROGRAM LOGIC\n",
+        "# 1. Call print_bio using my own info.\n",
+        "# 2. Call print_bio using [Name of Famous Person].\n",
+        "# 3. Call print_bio using [Name of Fictional Character]."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "3eeafc49"
+      },
+      "source": [
+        "### Key Concepts from Think Python Chapter 3: Functions\n",
+        "\n",
+        "1.  **Function Definition**: Using `def` to create a new function.\n",
+        "2.  **Parameters and Arguments**: Passing information into functions.\n",
+        "3.  **Local Variables**: Variables created inside a function belong to that function.\n",
+        "4.  **Flow of Execution**: Code inside a function doesn't run until the function is called.\n",
+        "5.  **Fruitful vs. Void**: Functions that return a value vs. those that just perform an action (like printing)."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "db71f428"
+      },
+      "source": [
+        "def print_twice(message):\n",
+        "    \"\"\"This is a void function with one parameter.\"\"\"\n",
+        "    print(message)\n",
+        "    print(message)\n",
+        "\n",
+        "def add_two_numbers(a, b):\n",
+        "    \"\"\"This is a fruitful function that returns a value.\"\"\"\n",
+        "    result = a + b\n",
+        "    return result\n",
+        "\n",
+        "# Calling the functions\n",
+        "print_twice('Hello Python!')\n",
+        "\n",
+        "sum_val = add_two_numbers(5, 10)\n",
+        "print(f'The sum is: {sum_val}')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "bc9d175e"
+      },
+      "source": [
+        "def cat_twice(part1, part2):\n",
+        "    # cat is a local variable\n",
+        "    cat = part1 + part2\n",
+        "    print_twice(cat)\n",
+        "\n",
+        "line1 = 'Bing tiddle '\n",
+        "line2 = 'tiddle bang.'\n",
+        "cat_twice(line1, line2)\n",
+        "\n",
+        "# Trying to print 'cat' here would cause a NameError because it is local to the function\n",
+        "# print(cat)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
