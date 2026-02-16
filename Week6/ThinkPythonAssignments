@@ -1,0 +1,55 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN4Raf3bfHq7iNG+s3Gysjo",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TreyvonHinnant/ThinkPythonAssignments/blob/main/Week6/ThinkPythonAssignments\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# IMPORT STATEMENTS\n",
+        "# 1. Import math\n",
+        "\n",
+        "# FUNCTION DEFINITIONS\n",
+        "# 1. Define area(radius): returns pi * r squared\n",
+        "# 2. Define circumference(radius): returns 2 * pi * r\n",
+        "# 3. Define volume(radius, height):\n",
+        "#    - Call area(radius) and multiply by height.\n",
+        "#    - Return the result.\n",
+        "\n",
+        "# PROGRAM LOGIC\n",
+        "# 1. Input for radius (float)\n",
+        "# 2. Call and print area and circumference.\n",
+        "# 3. Input for height (float)\n",
+        "# 4. Call and print volume."
+      ],
+      "metadata": {
+        "id": "XLOfTXQ_P8Gr"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
