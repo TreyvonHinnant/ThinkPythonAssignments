@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMwXb920iBW+odEdRP02KMU",
+      "authorship_tag": "ABX9TyNnMbr0C+9axzTPASfMj7sh",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -37,24 +37,35 @@
         "# Define a function: evaluate_guess that evaluates a user guess and compares it to the random number, and give user feedback\n",
         "# Parameters needed: the guess from the user, the random number\n",
         "def evaluate_guess(guess, random_number):\n",
-        "  # Check if the user guess is equal to the random numbe\n",
+        "  # Check if the user guess is equal to the random number\n",
+        "  if guess == random_number:\n",
         "    # If so, tell the user they won\n",
+        "    print(\"Congrats! You won!\")\n",
+        "    return True\n",
         "  # Elif the user guess is less than the random number\n",
+        "   elif guess < random_number:\n",
         "    # If so, tell the user the number is too low\n",
+        "    print(\"Your guess was to low\")\n",
+        "    return False\n",
         "  # Elif the user guess is higher than the random number\n",
         "    # If so, tell the user that number is too high\n",
+        "    elif guess > random_number:\n",
         "    # return False\n",
         "\n",
         "##### Program Logic #####\n",
         "\n",
         "# Generate the random number\n",
         "random_number = random.randrange(100)\n",
-        "# TODO: remove this befor completion so the user doesn't know what the number is\n",
+        "# TODO: remove this befor completion so the user doesn't know what the number is!\n",
+        "print(random_number)\n",
         "\n",
         "# Initialize a default guess (they haven't guessed yet)\n",
+        "user_guess = int(input(\"Please enter your guess: \"))\n",
         "\n",
         "# while the user guess is wrong (call my evaluate_guess function)\n",
-        "  # ask for a guess"
+        "while not evaluate_guess(user_guess, random_number):\n",
+        "  # ask for a guess\n",
+        "  user_guess = int(input(\"Please enter your guess: \"))"
       ],
       "metadata": {
         "id": "UQA7UYxkrUZg"
