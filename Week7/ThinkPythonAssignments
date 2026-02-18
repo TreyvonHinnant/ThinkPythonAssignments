@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMfQrRWnQstosXEZCg4cA9G",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TreyvonHinnant/ThinkPythonAssignments/blob/main/Week7/ThinkPythonAssignments\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "##### Import statements #####\n",
+        "\n",
+        "##### Function definitions #####\n",
+        "\n",
+        "# Define a function: evaluate_guess that evaluates a user guess and compares it to the random number, and give user feedback\n",
+        "# Parameters needed: the guess from the user, the random number\n",
+        "  # Check if the user guess is equal to the random number\n",
+        "    # If so, tell the user they won\n",
+        "    # return True\n",
+        "  # Elif the user guess is less than the random number\n",
+        "    # If so, tell the user the number is too low\n",
+        "    # return False\n",
+        "  # Elif the user guess is higher than the random number\n",
+        "    # If so, tell the user that number is too high\n",
+        "    # return False\n",
+        "\n",
+        "##### Program Logic #####\n",
+        "\n",
+        "# Generate the random number\n",
+        "\n",
+        "# Initialize a default guess (they haven't guessed yet)\n",
+        "\n",
+        "# while the user guess is wrong (call my evaluate_guess function)\n",
+        "  # ask for a guess"
+      ],
+      "metadata": {
+        "id": "UQA7UYxkrUZg"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Random number guessing game\n",
+        "\n",
+        "Program needs to generate a random number and allow the user to keep guessing until they get it right. The program should give the user feedback and let them know if their guess is too high or too low."
+      ],
+      "metadata": {
+        "id": "5lVapOOLsKy2"
+      }
+    }
+  ]
+}
